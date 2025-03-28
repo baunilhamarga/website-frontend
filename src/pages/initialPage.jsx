@@ -33,9 +33,25 @@ class Description extends React.Component {
             <div className='description'>
                 <h1>Para o dia de hoje: </h1>
                 <h2>Entrem nesse link para ver os problemas: </h2> 
-                 <h3> https://docs.google.com/document/d/1LY7eYdqBkc5y9KKtwvU6t9FJHGM2_-VlrCOid665Z_g/edit?tab=t.0 </h3>   
+                <h3> 
+                    <a 
+                        href="https://docs.google.com/document/d/1LY7eYdqBkc5y9KKtwvU6t9FJHGM2_-VlrCOid665Z_g/edit?tab=t.0" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        Clique aqui para os problemas
+                    </a>
+                    </h3>   
                 <h2>E nesse para ver as soluções: </h2>
-                <h3>https://github.com/leomoura28/AulasLeo/tree/main/respostas2</h3>
+                <h3>
+                <a 
+                    href="https://github.com/leomoura28/AulasLeo/tree/main/respostas2" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    Clique aqui para as soluções
+                </a>
+                </h3>
                 <h2>🚀 O que é Programação Competitiva?</h2>
                 <hr></hr>
                 <p>
